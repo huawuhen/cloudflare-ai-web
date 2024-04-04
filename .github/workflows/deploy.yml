@@ -37,6 +37,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "skythx-cloudflare-80"
+          project: "huawuhen-cloudflare-ai-web"
           entrypoint: "server/index.ts"
           root: ".output"
